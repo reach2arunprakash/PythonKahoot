@@ -1,0 +1,142 @@
+Python 
+
+Doesn't have semicolon
+Doesn't have Arrays
+Doesn't have Curly Braces
+Doesn't have switch
+
+1 is correct 
+1,2 is correct 
+1,2,3 is correct 
+All the above
+
+Ans: D
+
+Python is 
+
+High level Language
+Low Level Language 
+Both level Language
+Medium level language
+
+Ans: A
+
+a=5
+b=10
+c=1
+if (a and b)>c :
+     print("GUVI")
+else:
+     break
+
+
+SyntaxError: 'break' outside loop
+SyntaxError: and is not valid
+GUVI
+Prints nothing
+
+Ans:  A
+
+
+a=5
+b=10
+c=1
+if (a and b)>c :
+     print("GUVI")
+else:
+     print("I Understood")
+
+I Understood
+GUVI
+Prints nothing
+God Only knows
+
+Ans: B
+
+x=1
+if(x--):
+    print(x)
+else:
+    print("Zero")
+
+SyntaxError: invalid syntax
+0
+Zero
+1
+
+Ans : A
+
+
+x=1
+if(x):
+    print(x)
+else:
+    print("Zero")
+
+Zero
+Prints nothing
+x
+1
+
+Ans: D
+
+
+x=1
+if(x):
+    print(x)
+print("Amazing")
+else:
+    print("Zero")
+
+Zero
+SyntaxError: invalid syntax
+prints x and Amazing
+print 1 and Amazing
+
+Ans: B
+
+
+a=100
+if(a > 0):
+    print("You score more than zero")
+else if(a>20):
+    print("You have scored more than 20")
+else if(a>30):
+    print("You have scored more than 30")
+
+SyntaxError: invalid syntax in line 4
+SyntaxError: invalid syntax in line 4 , 6
+No error
+Prints you have scored more than 30
+
+
+Ans:B
+
+a=100
+if(a > 0):
+    print("You score more than zero")
+elif(a>20):
+    print("You have scored more than 20")
+elif(a>30):
+    print("You have scored more than 30")
+
+You score more than zero
+You score more than 20
+You score more than 30
+Prints nothing 
+
+Ans: A
+
+with open(SOME_LARGE_FILE) as fh:
+count = 0
+text = fh.read()
+for character in text:
+    if character.isupper():
+count += 1
+
+counts number of characters
+prints number of characters
+prints the characters
+prints nothing 
+
+Ans:a
